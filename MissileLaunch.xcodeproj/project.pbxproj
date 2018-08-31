@@ -13,6 +13,10 @@
 		001391572137B9F100A0EB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001391552137B9F100A0EB37 /* Main.storyboard */; };
 		001391592137B9F200A0EB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001391582137B9F200A0EB37 /* Assets.xcassets */; };
 		0013915C2137B9F200A0EB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0013915A2137B9F200A0EB37 /* LaunchScreen.storyboard */; };
+		002F92602138F63B00373D2C /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 002F925E2138F63B00373D2C /* smoke.png */; };
+		002F92612138F63B00373D2C /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 002F925F2138F63B00373D2C /* smoke.scnp */; };
+		002F9264213908C000373D2C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 002F9262213908C000373D2C /* spark.png */; };
+		002F9265213908C000373D2C /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 002F9263213908C000373D2C /* fire.scnp */; };
 		00E45F6F2138CE3D00A1D244 /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E45F6E2138CE3D00A1D244 /* Missile.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +29,10 @@
 		001391582137B9F200A0EB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0013915B2137B9F200A0EB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0013915D2137B9F200A0EB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002F925E2138F63B00373D2C /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		002F925F2138F63B00373D2C /* smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smoke.scnp; sourceTree = "<group>"; };
+		002F9262213908C000373D2C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		002F9263213908C000373D2C /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
 		00E45F6E2138CE3D00A1D244 /* Missile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +69,10 @@
 				0013914F2137B9F100A0EB37 /* AppDelegate.swift */,
 				001391512137B9F100A0EB37 /* art.scnassets */,
 				001391532137B9F100A0EB37 /* ViewController.swift */,
+				002F9262213908C000373D2C /* spark.png */,
+				002F9263213908C000373D2C /* fire.scnp */,
+				002F925E2138F63B00373D2C /* smoke.png */,
+				002F925F2138F63B00373D2C /* smoke.scnp */,
 				00E45F6E2138CE3D00A1D244 /* Missile.swift */,
 				001391552137B9F100A0EB37 /* Main.storyboard */,
 				001391582137B9F200A0EB37 /* Assets.xcassets */,
@@ -129,9 +141,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				001391522137B9F100A0EB37 /* art.scnassets in Resources */,
+				002F9265213908C000373D2C /* fire.scnp in Resources */,
 				0013915C2137B9F200A0EB37 /* LaunchScreen.storyboard in Resources */,
+				002F92602138F63B00373D2C /* smoke.png in Resources */,
+				002F9264213908C000373D2C /* spark.png in Resources */,
 				001391592137B9F200A0EB37 /* Assets.xcassets in Resources */,
 				001391572137B9F100A0EB37 /* Main.storyboard in Resources */,
+				002F92612138F63B00373D2C /* smoke.scnp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
